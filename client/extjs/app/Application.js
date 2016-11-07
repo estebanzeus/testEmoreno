@@ -16,6 +16,7 @@ Ext.define('Demo.Application', {
         'MethodCall',
         'FormActions',
         'GridActions',
+        'UserActions',
         'FormUpload',
         'TreeActions',
         'Cookies',
@@ -32,7 +33,8 @@ Ext.define('Demo.Application', {
 
     stores: [
         'Todo',
-        'Tree'
+        'Tree',
+        'User'
     ],
 
     launch: function(){

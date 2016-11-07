@@ -100,3 +100,21 @@ INSERT INTO `satask` (`id`, `description`, `dueDate`, `priority`, `details`, `cr
 (24, 'Create databases on the history server.', '8/28/2011', 'Normal', '<b>sed<\\/b> quia nobis.', '10/25/2014', '1/16/2011', 'hdiaz'),
 (838, 'Monitor system performance and adjust hardware as required', '11/12/2009', 'Low', '<b>pariatur<\\/b> assumenda.', '12/1/2010', '1/17/2006', 'ryoung'),
 (164, 'Database backup and maintenance', '7/13/2013', 'Low', '<b>eum<\\/b> et.', '1/3/2012', '8/22/2010', 'jallen');
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `name`)
+VALUES
+  (1,'Esteban');
